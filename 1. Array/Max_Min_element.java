@@ -3,7 +3,7 @@ package Array;
 public class Max_Min_element {
 	
 	
-	public static int findSum(int A[],int N) 
+    public static int findSum(int A[],int N) 
     {
         //code here
         int min = Integer.MAX_VALUE;
@@ -23,15 +23,15 @@ public class Max_Min_element {
         return min + max;
     }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
+	// TODO Auto-generated method stub
 		
-		int[] A = {1,2,3,45,-1,43};
-		int N = A.length;
-		int sumOfMinMax = findSum(A,N);
-		System.out.println(sumOfMinMax);
+	int[] A = {1,2,3,45,-1,43};
+	int N = A.length;
+	int sumOfMinMax = findSum(A,N);
+	System.out.println(sumOfMinMax);
 
-	}
+    }
 
 }
 
