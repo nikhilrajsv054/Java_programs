@@ -34,3 +34,13 @@ public class Max_Min_element {
 	}
 
 }
+
+
+
+//The time complexity of this code is O(N), where N is the size of the input array A. 
+//This is because the code iterates through each element in the array once to find the minimum and maximum elements.
+
+//The space complexity of this code is O(1), 
+//which means that the amount of memory used by the code does not increase with the size of the input array. 
+//This is because the code uses a constant amount of memory to store the variables "min" and "max", 
+//regardless of the size of the input array. Therefore, the space complexity of this code is independent of the input size.
